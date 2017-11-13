@@ -368,7 +368,7 @@ def start(m):
 								bot.send_message(m.chat.id,starttext.format(m.from_user.first_name),reply_markup=markup)
 							else:
 								markup = types.InlineKeyboardMarkup()
-								joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/pouyazamani")
+								joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
 								markup.add(joinlink)
 								bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 						else:
@@ -486,7 +486,7 @@ def start(m):
 				#	About Us |>>
 				elif m.text == '🔹 درباره ما':
 					print 'main func about us'
-					link = 't.me/pouyazamani'
+					link = 't.me/AmmeKadeh'
 					me = types.InlineKeyboardMarkup()
 					b = types.InlineKeyboardButton("🎉 ورود به کانال",url=link)
 					me.add(b)
@@ -579,7 +579,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/pouyazamani")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -620,7 +620,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/pouyazamani")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -1017,7 +1017,7 @@ def save_boy_girl(m):
 					redis.hset('secretchat:usergen',m.from_user.id,gen)
 				else:
 					markup = types.InlineKeyboardMarkup()
-					joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/pouyazamani")
+					joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
 					markup.add(joinlink)
 					msg = bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					bot.register_next_step_handler(msg,save_boy_girl)
