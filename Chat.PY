@@ -368,7 +368,7 @@ def start(m):
 								bot.send_message(m.chat.id,starttext.format(m.from_user.first_name),reply_markup=markup)
 							else:
 								markup = types.InlineKeyboardMarkup()
-								joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
+								joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/joinchat/AAAAAERC1x02_qG04v7dBQ")
 								markup.add(joinlink)
 								bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 						else:
@@ -486,7 +486,7 @@ def start(m):
 				#	About Us |>>
 				elif m.text == '🔹 درباره ما':
 					print 'main func about us'
-					link = 't.me/AmmeKadeh'
+					link = 'https://telegram.me/joinchat/AAAAAERC1x02_qG04v7dBQ'
 					me = types.InlineKeyboardMarkup()
 					b = types.InlineKeyboardButton("🎉 ورود به کانال",url=link)
 					me.add(b)
@@ -537,7 +537,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/joinchat/AAAAAERC1x02_qG04v7dBQ")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -579,7 +579,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/joinchat/AAAAAERC1x02_qG04v7dBQ")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
@@ -620,7 +620,7 @@ def selectboygirl(m):
 								bot.send_photo(m.chat.id,photo=open('img.jpg','rb'),caption=share.format(botuser,m.from_user.id))
 						else:
 							markup = types.InlineKeyboardMarkup()
-							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/AmmeKadeh")
+							joinlink = types.InlineKeyboardButton("🚩 عضویت در کانال", url="https://telegram.me/joinchat/AAAAAERC1x02_qG04v7dBQ")
 							markup.add(joinlink)
 							bot.send_message(m.chat.id,forcejoin,reply_markup=markup)
 					else:
