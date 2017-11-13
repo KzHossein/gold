@@ -490,7 +490,7 @@ def start(m):
 					me = types.InlineKeyboardMarkup()
 					b = types.InlineKeyboardButton("🎉 ورود به کانال",url=link)
 					me.add(b)
-					bot.send_message(m.from_user.id,'🔖ساخت شده توسط :\n\n🔸 @virus32 🔹',reply_markup=me)
+					bot.send_message(m.from_user.id,'🔖ساخت شده توسط :\n\n🔸 @Koshandew 🔹',reply_markup=me)
 				elif m.text == '🔸 پشتیبانی':
 					print 'main func about us'
 					link = 'https://telegram.me/Koshandew'
