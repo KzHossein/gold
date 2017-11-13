@@ -470,8 +470,8 @@ def start(m):
 					if joined(m.from_user.id):
 						print 'buyvip func buy'
 						a = buy(5000)
-						link = 'https://www.payping.ir/virus32/5000?utm_source=bot&utm_medium=preamount'+str(a)
-						links = 'https://www.payping.ir/virus32/5000?utm_source=bot&utm_medium=preamount'
+						link = 'http://Telegram.me/Faribandew'+str(a)
+						links = 'http://Telegram.me/Faribandew'
 						redis.hset('secretchat:links',m.from_user.id,a)
 						kb = types.InlineKeyboardMarkup()
 						b = types.InlineKeyboardButton("🎯 پرداخت",url=link)
